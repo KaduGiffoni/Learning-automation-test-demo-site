@@ -1,0 +1,23 @@
+export const element = {
+  firstName: ":nth-child(1) > :nth-child(2) > .form-control",
+  lastName: ":nth-child(1) > :nth-child(3) > .form-control",
+  address: ".col-md-8 > .form-control",
+  email: "#eid > .form-control",
+  phone: ":nth-child(4) > .col-md-4 > .form-control",
+  gender: "[name='radiooptions'][value='Male']",
+  hobbies: {
+    cricket: "#checkbox1",
+    movies: "#checkbox2",
+    hockey: "#checkbox3",
+  },
+  languages: ".ui-autocomplete.ui-front",
+  skills: "#Skills",
+  country: ".select2-selection",
+  countrySeach: ".select2-search__field",
+  birthDateY: "#yearbox",
+  birthDateM: ":nth-child(11) > :nth-child(3) > .form-control",
+  birthDateD: "#daybox",
+  firstPassword: "#firstpassword",
+  secondPassword: "#secondpassword",
+  submitButton: "#submitbtn",
+};
